@@ -76,7 +76,7 @@ body {
   padding-top: 7px;
 }
 .projects {
-  height: 98%;
+  height: 99%;
 }
 .cardIcon {
   font-size: 80px;
@@ -85,20 +85,32 @@ body {
 }
 .alignerFooter {
   position: absolute;
+  bottom: 7px;
   width: 80%;
-  bottom: 2%;
   right: 10%;
 }
 .card-body > p.aligner {
   padding-bottom: 35px;
 }
-
-
-
-
 .aligner {
   text-align: left;
 }
 .alignerInv {
   text-align: right;
+}
+.footer {
+  background-color: #59402A;
+  margin-top: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+}
+.footerInt {
+  display: inline;
+  color: #F2F2F0;
+}
+.iconComp {
+  font-size: 80px;
+  padding-top: 2px;
+  color: #8C8784;
 }
