@@ -128,3 +128,6 @@ body {
 .separator {
   margin-top: 10px;
 }
+.contactBouton {
+  border: none;
+}

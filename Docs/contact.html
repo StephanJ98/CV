@@ -31,7 +31,12 @@
       <div class="offset-md-4 col-md-4 col-sm-12">
         <div class="row contactMail">
           <div class="col-12">
-            <a href="../index.html"><span class="iconify contactIcon" data-icon="ion:chevron-back-circle-sharp" data-inline="false"></span></a>
+            <button class="contactBouton" onclick="goBack()"><span class="iconify contactIcon" data-icon="ion:chevron-back-circle-sharp" data-inline="false"></span></button>
+            <script>
+              function goBack() {
+                window.history.back();
+              }
+            </script>
           </div>
         </div>
       </div>
