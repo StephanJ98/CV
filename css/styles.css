@@ -2,55 +2,54 @@
   padding: 0;
   margin: 0;
   text-align: center;
-  color: #59402A;
+  color: #011826;
 }
 body {
-  background-color: #8C8784;
+  background: url("../Images/te.jpg") fixed center;
+      background-size: cover;
+      height: 100%;
 }
 .corps {
   margin-top: 25px;
 }
 .carte {
-  border-color: #BFBFBD;
-  background-color: #F2F2F0;
+  border-color: #55736D;
+  background-color: #F0F0F2;
   margin-bottom: 10px;
 }
 .logo {
-  color: #BFBFBD;
+  color: #55736D;
   font-size: 75px;
   padding-top: 15px;
 }
 .bouton {
-  color: #BFBFBD;
+  color: #F0F0F2;
   font-weight: bold;
-  border-color: #59402A;
-  background-color: #59402A;
+  border-color: #012623;
+  background-color: #012623;
   border-radius: 25px;
 }
 .bouton:hover {
   transform: scale(1.1);
-  color: #BFBFBD;
-  font-weight: bold;
-  border-color: #59402A;
-  background-color: #59402A;
+  border-color: #011826;
+  background-color: #011826;
 }
 .bouton2 {
-  color: #BFBFBD;
+  color: #F0F0F2;
   font-weight: bold;
-  border-color: #59402A;
-  background-color: #59402A;
+  border-color: #012623;
+  background-color: #012623;
   border-radius: 25px;
   margin-left: 25px;
 }
 .bouton2:hover {
   transform: scale(1.1);
-  color: #BFBFBD;
-  font-weight: bold;
-  border-color: #59402A;
-  background-color: #59402A;
+  border-color: #011826;
+  background-color: #011826;
 }
 .social {
-  background-color: #F2F2F0;
+  background-color: #F0F0F2;
+  border: 1px solid #55736D;
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 5px;
@@ -62,7 +61,8 @@ body {
 }
 .main {
   margin-top: 20px;
-  background-color: #F2F2F0;
+  background-color: #F0F0F2;
+  border: 1px solid #55736D;
   border-radius: 5px;
 }
 .apropos {
@@ -74,7 +74,7 @@ body {
 .cardIcon {
   font-size: 80px;
   padding-top: 15px;
-  color: #8C8784;
+  color: #455925;
 }
 .alignerFooter {
   position: absolute;
@@ -92,7 +92,7 @@ body {
   text-align: right;
 }
 .footer {
-  background-color: #59402A;
+  background-color: #012623;
   margin-top: 15px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -109,4 +109,19 @@ body {
 }
 .translator {
   font-size: 30px;
+}
+ /* Contact */
+ .contactMail {
+   background-color: #F0F0F2;
+   border-radius: 5px;
+ }
+ .contactIcon {
+   font-size: 50px;
+ }
+.alignerCentre {
+  height: 100%;
+  margin-top: 25%;
+}
+.alignerCentreText {
+  margin-top: 10px;
 }
